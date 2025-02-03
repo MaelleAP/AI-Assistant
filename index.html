@@ -10,19 +10,23 @@
             text-align: center;
             padding: 20px;
         }
-        iframe {
-            width: 100%;
-            height: 600px;
+        .ai-button {
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
             border: none;
+            border-radius: 5px;
+            margin: 15px 0;
         }
     </style>
 </head>
 <body>
     <h2>AI Assistant</h2>
-    <p>Ask AI for help by typing your query below:</p>
-
-    <!-- Embed the Hugging Face Chatbot -->
-    <iframe src="https://huggingface.co/spaces/MaellePerez/AI-Assistant" allow="clipboard-read; clipboard-write"></iframe>
-
+    <p>Click the button below to access the AI assistant.</p>
+    <button class="ai-button" onclick="window.location.href='https://huggingface.co/spaces/MaellePerez/AI-Assistant'">Open AI Assistant</button>
 </body>
 </html>
+
